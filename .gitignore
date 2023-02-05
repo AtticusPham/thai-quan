@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 node_modules/
 .env
+=======
+.vscode
+node_modules/
+.env
+>>>>>>> 4bf7523 ([EA-99] initial server)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const HTTP_STATUS = require("../utils/constant");
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
@@ -87,3 +88,22 @@ module.exports = {
     },
 }
 
+=======
+// const { Request, Response } = require(' "express";
+// const { HTTP_STATUS } = require(' "./../utils/constant";
+
+// //signup
+// export const signup = async (req: Request, res: Response) => {
+//   res.status(HTTP_STATUS.SUCCESS).json("This is signup");
+// };
+
+// //Login
+// export const login = async (req: Request, res: Response) => {
+//   res.status(HTTP_STATUS.SUCCESS).json("This is login");
+// };
+
+// //forgot password
+// export const forgotPassword = async (req: Request, res: Response) => {
+//   res.status(HTTP_STATUS.SUCCESS).json("This is forgot password");
+// };
+>>>>>>> 4bf7523 ([EA-99] initial server)
