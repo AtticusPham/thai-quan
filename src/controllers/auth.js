@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 const HTTP_STATUS = require("../utils/constant");
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
@@ -88,7 +88,7 @@ module.exports = {
     },
 }
 
-=======
+// =======
 // const { Request, Response } = require(' "express";
 // const { HTTP_STATUS } = require(' "./../utils/constant";
 
@@ -106,4 +106,4 @@ module.exports = {
 // export const forgotPassword = async (req: Request, res: Response) => {
 //   res.status(HTTP_STATUS.SUCCESS).json("This is forgot password");
 // };
->>>>>>> 4bf7523 ([EA-99] initial server)
+// >>>>>>> 4bf7523 ([EA-99] initial server)

@@ -1,6 +1,7 @@
 const express = require('express')
 // const auth = require('./auth')
 const user = require('./user')
+const auth = require('./auth')
 // const product = require('./product')
 // const category = require('./category')
 // const order = require('./order')
@@ -8,7 +9,7 @@ const user = require('./user')
 // const comment = require('./comment')
 
 function route(app) {
-    // app.use("/auth", auth);
+    app.use("/auth", auth);
     app.use("/user", user);
     // app.use("/product", product);
     // app.use("/category", category);

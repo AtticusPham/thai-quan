@@ -1,16 +1,18 @@
-// const express = require('express');
-// const { signup, login, forgotPassword } = require('../controllers/auth')
+const express = require('express');
+const router = express.Router();
+const { asyncErrorHandler } = require("../middlewares/middlewares");
+const { signup, login, forgotPassword } = require('../controllers/auth');
 
-// const router = express.Router();
 
-// //signup
-// router.post("/signup", signup);
+/**POST /signup to create a new account */
+router.post("/signup", asyncErrorHandler(signup));
 
-// //login
-// router.post("/login", login);
+/**POST /login login */
+router.post("/login", asyncErrorHandler(login));
 
-// //forgot password
-// router.post("/forgot", forgotPassword);
+//forgot password
+router.post("/forgot", asyncErrorHandler(forgotPassword));
 
-// module.exports = router
+
+module.exports = router
 
